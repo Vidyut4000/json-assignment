@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*   
+        There are two methods for the assignment,please uncomment the below code at line no.13 and line no.28 only.
+
+
+       // Method 1st
+           // creation of JSON OBJECT.
+     let  jsonObj = '{"schoolName":"SBOA","Year":1988,"Rank":1,"students":1000}';
+
+       // converting as javascript Object.
+       let javascriptobj = JSON.parse(jsonObj);
+
+       // writing on the webpage by using dom method
+    document.write("school Name"+ " = "+javascriptobj.schoolName+ "<br>")
+    document.write("Year"+ " = "+javascriptobj.Year+ "<br>")
+    document.write("Rank In The City"+ " = "+javascriptobj.Rank+ "<br>")
+    document.write("No. of students studying"+ " = "+javascriptobj.students+ "<br>")
+           */
+
+
+        // Method 2nd 
+        /*(uncomment me)
+
+        // creation of json array
+        let arr1 = '["Schol Name","year","Rank In the city","students"]';
+        let arr2 = '["SBOA",1998,1,1000]';
+
+        //  converting the above string array into javascript arrays vy using json parse method
+        let jsArr1 = JSON.parse(arr1);
+        let jsArr2 = JSON.parse(arr2);
+
+        // Displaying array on the webpage by using for loop
+        for (let i = 0; i <= jsArr1.length - 1; i++) { document.write(jsArr1[i] + " = " + jsArr2[i] + " <br>") };
+
+               (uncomment me)*/
+
+    </script>
+</body>
+
+</html>
